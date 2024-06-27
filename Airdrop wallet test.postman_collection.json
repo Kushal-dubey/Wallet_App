@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "6676dea3-f2bd-411c-88db-8559cb11936f",
+		"name": "Airdrop wallet test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "36600851"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/airdrop",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"userId\": \"user1\",\r\n  \"amount\": 500\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/airdrop",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"airdrop"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"info": {
+		"_postman_id": "314e4791-8907-49ef-8370-01d68d76428f",
+		"name": "Retrieve wallet test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "36600851"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/balance/user1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/balance/user1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"balance",
+						"user1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
